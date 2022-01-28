@@ -1,0 +1,81 @@
+nav{
+    flex: 1;
+    text-align: right;
+    padding: 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+nav ul li a{
+    text-decoration: none;
+  
+    color: aliceblue;
+}
+nav ul li a:hover{
+    background:linear-gradient(to right,#803BEC, #2095F4);
+    color: #000;
+}
+.main_logo{
+    display: none;
+}
+
+
+@media only screen and (max-width:700px){
+
+    nav ul{
+        width: 100%;
+        background:linear-gradient(to right,#803BEC, #2095F4);
+      
+        position: absolute;
+        
+        top: 120px;
+        
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+  
+        margin-top: 10px;
+        
+     
+     
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .navbar-brand{
+        font-size: 20px;
+       
+    }
+    .row {
+        top: 300px;
+
+    }
+    .sahil{
+        width: 100%;
+        background:linear-gradient(to right,#803BEC, #2095F4);
+      
+        position: absolute;
+        
+        
+    
+        
+        right: 0;
+        z-index: 2;
+    }
+    .main_logo{
+        display: block;
+    
+        
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+
+}
